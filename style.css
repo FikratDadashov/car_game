@@ -1,0 +1,56 @@
+.road {
+    position: relative;
+    background-color: rgb(92, 92, 92);
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.lines {
+    background-color: white;
+    height: 100vh;
+    width: 10px;
+    margin: 0 auto;
+}
+
+.car1 {
+    position: absolute;
+    background-color: red;
+    height: 150px;
+    width: 90px;
+    bottom: 20px;
+    left: 120px;
+}
+
+.car2 {
+    position: absolute;
+    background-color: green;
+    height: 150px;
+    width: 90px;
+    top: 20px;
+}
+
+.car3 {
+    position: absolute;
+    background-color: yellow;
+    height: 150px;
+    width: 90px;
+    top: 20px;
+}
+
+#newGame, #creditBtn, #backBtn {
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid goldenrod;
+    border-radius: 7px;
+    background-color: gold;
+    color: orangeRed;
+    font-size: 32px;
+    font-weight: bold;
+    width: 5em;
+    margin: 5px auto;
+}
+
+#backBtn {
+    display: none;
+}
